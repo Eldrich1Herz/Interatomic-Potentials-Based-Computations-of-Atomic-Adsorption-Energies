@@ -1,4 +1,5 @@
-# Hg@Au with LJ
+# Hg@Au with LJ. 
+
 (myenv) miroi@MIRO:~/work/projects/open-collection/theoretical_chemistry/projects/adsorptions_with_ase/Hg_on_gold/LennardJones/.python Hg_on_Au-slab_LJ.py Optimizing clean slab... Optimizing combined system... ------------------------------ Energy of Slab: -0.2733 eV Energy of Atom: 0.0000 eV Total Energy: -0.2841 eV Adsorption Energy (E_ads): -0.0108 eV ------------------------------
 
 ***Theoretical studies, which often align with experimental findings for Hg-Au interactions***,
