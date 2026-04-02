@@ -32,8 +32,9 @@ For quantitative accuracy, use ML potentials (scripts 2 and 3).
 
 Run
 ---
-.. code-block:: bash
-   # Serial
+::
+
+   # Serial run
    python3 Hg_on_gold_screen_LJ.py
 
    # Parallel (use all cores)
