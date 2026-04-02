@@ -38,5 +38,6 @@ Requirements
 
 Run
 ---
-.. code-block:: bash
+::
+
    python3 5.py
