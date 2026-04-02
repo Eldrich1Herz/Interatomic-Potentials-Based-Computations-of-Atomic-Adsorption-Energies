@@ -8,7 +8,7 @@ Key features
 ------------
 - Three model sizes: `small`, `medium` (default), `large`
 - Float32 / float64 precision choice
-- Force convergence criterion adjustable (`fmax`)
+- Adjustable force convergence criterion (`fmax`)
 - Saves trajectories and final structures
 
 Results
@@ -35,5 +35,6 @@ Requirements
 
 Run
 ---
-.. code-block:: bash
+::
+
    python3 Hg_on_Au-slab_ML.py
