@@ -34,5 +34,6 @@ Requirements
 
 Run
 ---
-.. code-block:: bash
+::
+
    python3 Hg_on_Au-slab_LJ.py
