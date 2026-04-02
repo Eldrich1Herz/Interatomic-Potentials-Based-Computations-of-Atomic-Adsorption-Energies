@@ -1,15 +1,15 @@
 Hg adsorption on Au(111) – CHGNet (machine‑learning potential)
 ===============================================================
 
-This script uses the pre‑trained CHGNet potential, which was trained on DFT data.
+This script uses the pre‑trained CHGNet potential (trained on DFT data).
 It automatically tests four adsorption sites and stores results in an ASE database.
 
 Key features
 ------------
-- GPU acceleration (if available) – automatically detected
+- GPU acceleration if available (auto‑detected)
 - Tests fcc, hcp, ontop, bridge sites
 - Saves trajectories and final structures
-- Stores metadata (energy, site, slab parameters) in `hg_on_au_chgnet.db`
+- Stores metadata in `hg_on_au_chgnet.db`
 
 Results
 -------
@@ -29,10 +29,11 @@ Requirements
 ------------
 - ASE
 - CHGNet (pip install chgnet)
-- PyTorch (pip install torch)
+- PyTorch
 - NumPy
 
 Run
 ---
-.. code-block:: bash
+::
+
    python3 Hg_on_Au-slab_chgnet.py
