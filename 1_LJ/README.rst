@@ -1,14 +1,14 @@
 Hg adsorption on Au(111) – Lennard-Jones potential
 ===================================================
 
-This script demonstrates the simplest possible ASE workflow:
+This script demonstrates a basic ASE workflow:
 building an Au(111) slab, adding a Hg atom, relaxing the structure,
 and computing the adsorption energy.
 
 Key features
 ------------
-- Uses Lennard-Jones potential with **explicit parameters** (epsilon=0.05 eV, sigma=2.8 Å)
-- Tests four high‑symmetry sites: ontop, fcc, hcp, bridge
+- Lennard-Jones potential with explicit parameters (epsilon=0.05 eV, sigma=2.8 Å)
+- Tests four adsorption sites: ontop, fcc, hcp, bridge
 - Saves relaxation trajectories (`.traj`) and final structures (`.xyz`, `.cif`)
 - Interactive visualisation with `ase.visualize.view()`
 
@@ -29,7 +29,7 @@ character of the Hg–Au bond.
 
 Requirements
 ------------
-- ASE ≥ 3.23.0
+- ASE >= 3.23.0
 - NumPy
 
 Run
