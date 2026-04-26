@@ -69,7 +69,7 @@ regex==2024.11.6
 requests==2.32.4
 ruamel.yaml==0.18.16
 ruamel.yaml.clib==0.2.8
-scikit-learn @ file:///D:/SCHOOL21/DSB11_ML_Advanced.ID_1577654-1/scikit_learn-0.23.1-cp38-cp38-win_amd64.whl
+scikit-learn==0.23.1
 scipy==1.10.1
 seaborn==0.13.2
 six==1.17.0
@@ -81,7 +81,7 @@ tabulate==0.9.0
 threadpoolctl==3.5.0
 torch==2.4.1
 tornado==6.4.2
-tqdm @ file:///D:/SCHOOL21/DSB11_ML_Advanced.ID_1577654-1/tqdm-4.46.1-py2.py3-none-any.whl#sha256=07c06493f1403c1380b630ae3dcbe5ae62abcf369a93bbc052502279f189ab8c
+tqdm==4.46.1
 traitlets==5.14.3
 typing_extensions==4.13.2
 tzdata==2026.1
